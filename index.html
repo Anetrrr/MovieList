@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+         <div id="page-banner">
+            <h2 class="title" style="color:#fff;">Movies you'll be amazed to see!</h2>
+            <p style="color:#fff;">A Curated List of Most Amazing Movies</p>
+         </div>
+        </header>
+    
+        <div id="movie-list">
+            <h2 class="title">Movies to Watch</h2>
+            <ul id="list">
+                <li>
+                    <span class="name">The Intern</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">The Accountant</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Ironman</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Pirates of the Caribbean</span>
+                    <span class="delete">delete</span>
+                </li>
+            </ul>
+
+        </div>
+        <form action="add-movie" id="add-movie">
+            <input type="text" name="add" id='input' placeholder="Add a new movie...">
+            <button id="btn">Add</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
